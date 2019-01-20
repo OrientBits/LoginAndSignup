@@ -16,4 +16,5 @@
     <string name="last_name">Last Name</string>
     <string name="log_in_page">Log In page</string>
     <string name="register_page">Register page</string>
+    <string name="re_enter_password">Re-enter Password</string>
 </resources>

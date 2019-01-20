@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,7 +17,6 @@
         android:id="@+id/login_form"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="none"
         android:layout_marginBottom="35dp">
 
         <LinearLayout
@@ -141,7 +141,7 @@
                     android:id="@+id/re_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Re-enterPassword"
+                    android:hint="@string/re_enter_password"
                     android:imeActionId="6"
                     android:imeOptions="actionUnspecified"
                     android:inputType="textPassword"
@@ -149,8 +149,6 @@
                     android:singleLine="true" />
 
             </android.support.design.widget.TextInputLayout>
-
-
 
 
             <com.loopeer.shadow.ShadowView
@@ -210,8 +208,6 @@
             tools:ignore="HardcodedText" />
 
     </LinearLayout>
-
-
 
     <com.wang.avi.AVLoadingIndicatorView
         android:id="@+id/register_loader"
